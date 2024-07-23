@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    .navbar{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: coral;
+        height: 4em;
+        padding: 1em;
+    }
+    .logo{
+        font-size: 2em;
+    }
+    .list{
+        display: flex;
+        align-items: center;
+        gap: 4em;
+    }
+    li{
+        list-style-type: none;
+        font-size: 2em;
+    }
+    </style>
 </head>
 <body>
-    
+    <!-- navbar -->
+     <div class="navbar">
+        <div class="logo">
+            <h1>SnackSnap</h1>
+        </div>
+        <div class="tabs">
+            <ul class="list">
+                <li>Offers</li>
+                <li>Help</li>
+                <li>About Us</li>
+                <li>Signin</li>
+                <li>Cart</li>
+            </ul>
+        </div>
+     </div>
 </body>
 </html>
